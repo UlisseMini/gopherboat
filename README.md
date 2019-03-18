@@ -77,7 +77,7 @@ func main() {
 		}
 	}
 
-	// Recv the messages back from the boalog.
+	// Recv the messages back from the boat.
 	for i := 0; i < N; i++ {
 		log.Printf("recv ping #%d", i)
 		msg := new(string)
